@@ -1,6 +1,12 @@
 import {Component} from 'react'
 
-import {Div, DivForText, DivForSaveAndEidt,Input, Button} from './StyledComponents'
+import {
+  Div,
+  DivForText,
+  DivForSaveAndEidt,
+  Input,
+  Button,
+} from './StyledComponents'
 
 class EditableText extends Component {
   state = {inputText: '', isTextEdited: true}
